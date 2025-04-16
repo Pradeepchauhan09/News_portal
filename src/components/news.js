@@ -43,6 +43,7 @@ export class News extends Component {
 
   async componentDidMount() {
     this.updatedNews();
+    this.fetchNews(); // Call fetchNews here
   }
 
   componentDidUpdate(prevProps) {
@@ -64,6 +65,17 @@ export class News extends Component {
       });
     } catch (error) {
       console.error("Error fetching more news articles:", error);
+    }
+  };
+
+  fetchNews = async () => {
+    const url = `${process.env.REACT_APP_BACKEND_URL}/api/endpoint`; // Replace '/api/endpoint' with your actual endpoint
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      console.error('Error fetching news:', error);
     }
   };
 

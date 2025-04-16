@@ -4,6 +4,32 @@ import Navbar from './components/Navbar';
 import News from './components/news';
 import { Routes, Route } from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar';
+const cors = require('cors');
+const express = require('express');
+const app = express();
+
+// CORS Configuration
+app.use(
+  cors({
+    origin: ['http://localhost:3000', 'https://your-frontend.vercel.app'], // Replace with your frontend URLs
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    credentials: true,
+  })
+);
+
+// Middleware
+app.use(express.json());
+
+// Routes
+app.get('/api/endpoint', (req, res) => {
+  res.json({ message: 'Hello from the backend!' });
+});
+
+// Start the server
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
 
 export default class App extends Component {
   apikey = "d103897c2d064c1c97184c261e626f5c";
