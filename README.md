@@ -1,3 +1,79 @@
+This project was bootstrapped with Create React App.
+
+👨‍🏫 Mentor
+Mentor Name: [Ruchi gupta]
+
+Submitted by 
+Name : [pradeep chauhan]
+Name : [navneet singh]
+Name : [lakshya bhardwaj]
+Name : [devansh sharma]
+Name : [vijay kumar]
+
+🧑‍💻 Technologies Used
+Frontend: HTML, CSS, Bootstrap, React.js
+
+Backend: Node.js, Express.js
+
+Deployment: Vercel
+backend : render
+
+📁 Project Features
+Responsive UI with Bootstrap
+
+Fully functional CRUD operations
+
+RESTful API integration using Express.js
+
+Frontend and Backend connected via API
+
+Hosted and deployed on Vercel
+
+📽️ Website Preview
+A demo video of the website is uploaded to this GitHub repository.
+👉 Click here to watch the demo (replace with actual video link or filename)
+
+📄 Additional Files
+## 📄 Project Files
+
+- 📘 [Project Report](./report file news.docx)
+- 📊 [Presentation Slides](./News portal(1).pdf)
+- 🎬 [Website Demo Video](./Recording 2025-04-16 235435.mp4)
+
+
+All documents are included in the repository.
+
+📜 Available Scripts
+In the project directory, you can run:
+
+npm start
+Runs the app in development mode.
+Open http://localhost:3000 to view it in your browser.
+
+The page will reload when you make changes.
+You may also see any lint errors in the console.
+
+npm test
+Launches the test runner in interactive watch mode.
+See running tests for more info.
+
+npm run build
+Builds the app for production to the build folder.
+
+npm run eject
+Note: this is a one-way operation. Once you eject, you can't go back!
+
+📚 Learn More
+Create React App Docs
+
+React Documentation
+
+Deployment Guide
+
+![alt text](Screenshot 2025-04-17 000857.png)
+<img src="./Screenshot 2025-04-17 000857.png" alt="Website Screenshot" width="600"/>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
